@@ -1,6 +1,5 @@
 pipeline {
-    agent any
-
+    agent Testslave
     stages {
         stage('Build') {
             steps {
